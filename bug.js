@@ -1,0 +1,1 @@
+While using Expo's `Linking` API to handle deep links, I encountered an issue where the `getInitialURL` method would sometimes return `null` even when a deep link was clearly present.  This happened inconsistently, making debugging difficult.  The app would launch, but the deep link data wouldn't be available in my app.
